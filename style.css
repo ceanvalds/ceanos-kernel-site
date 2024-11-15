@@ -1,0 +1,158 @@
+@import "normalize.css";
+
+/* Custom fonts for clean, modern appearance */
+@font-face {
+    font-family: 'Oswald';
+    src: url('fonts/oswald-regular-webfont.eot');
+    src: url('fonts/oswald-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oswald-regular-webfont.woff2') format('woff2'),
+         url('fonts/oswald-regular-webfont.woff') format('woff'),
+         url('fonts/oswald-regular-webfont.ttf') format('truetype'),
+         url('fonts/oswald-regular-webfont.svg#oswaldregular') format('svg');
+}
+
+@font-face {
+    font-family: 'Oxygen';
+    src: url('fonts/oxygen-regular-webfont.eot');
+    src: url('fonts/oxygen-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/oxygen-regular-webfont.woff2') format('woff2'),
+         url('fonts/oxygen-regular-webfont.woff') format('woff'),
+         url('fonts/oxygen-regular-webfont.ttf') format('truetype'),
+         url('fonts/oxygen-regular-webfont.svg#oxygenregular') format('svg');
+}
+
+/* General page setup */
+body {
+    font-family: 'Oxygen', sans-serif;
+    background: #F0EDE3;
+    color: #33290A;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section */
+#banner {
+    text-align: center;
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding: 1.5em;
+    width: 60%;
+    border: thin solid #DDDACF;
+    box-shadow: 0 0.1em 0.3em #CCC8B8;
+    border-radius: 0.5em;
+}
+
+#banner h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3em;
+    margin: 28px 0;
+    text-shadow: 3px 3px 0 #F8F4EE;
+    color: #2C1D00;
+}
+
+#banner h1 a {
+    color: #2C1D00;
+    text-decoration: none;
+}
+
+#banner ul {
+    padding: 0;
+    margin: 0;
+    font-size: 1.1em;
+    font-weight: bold;
+    list-style: none;
+}
+
+#banner li {
+    display: inline;
+    padding: 0 1em;
+}
+
+#banner li a {
+    color: #B39223;
+}
+
+#banner li a:hover {
+    color: #4C3D00;
+}
+
+/* Content section */
+#content {
+    background: #FFFFFF;
+    margin: 2em auto;
+    padding: 2em;
+    width: 60%;
+    border: thin solid #DDDACF;
+    box-shadow: 0 0.1em 0.3em #CCC8B8;
+    border-radius: 0.5em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* Links */
+a {
+    color: #3357D6;
+    text-decoration: none;
+}
+
+a:hover,
+a:active {
+    color: #B39223;
+}
+
+/* Table styling */
+table.docutils {
+    margin: 2em 0;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+table.docutils th, table.docutils td {
+    padding: 1em;
+    border: 1px solid #ddd;
+}
+
+table.docutils th {
+    background-color: #F7F6F1;
+}
+
+table.docutils tr:nth-child(odd) {
+    background-color: #F0EDE3;
+}
+
+/* Footer section */
+#contentinfo {
+    clear: both;
+    text-align: center;
+    color: #827A5E;
+    margin: 2em auto;
+    padding-top: 3.5em;
+    width: 80%;
+}
+
+#contentinfo #about {
+    font-size: 80%;
+}
+
+#contentinfo #donors img {
+    margin: 0 0.5em;
+    vertical-align: middle;
+}
+
+.latest_button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 1.1em;
+        font-weight: bold;
+        text-align: center;
+        background-color: #F9D71C; 
+        color: #fff;
+        text-decoration: none;
+        border-radius: 0.3em;
+        border: 1px solid #E3C100; 
+        text-transform: uppercase; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+        transition: background-color 0.3s ease, border-color 0.3s ease;
+}
