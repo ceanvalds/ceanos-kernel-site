@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official archives for CeanOS kernel releases.">
+    <meta name="keywords" content="CeanOS, kernel, release, download">
+    <meta name="author" content="ceanvalds">
     <title>The CeanOS Kernel Archives</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="res/icon.jpg" type="image/jpeg">
+    <div id="ceanos-gear">
+        <img src="res/icon.jpg" alt="gear-1">
+    </div>    
 </head>
 <body>
     <header id="banner">
-        <h1><a href="/">The CeanOS Kernel Archives</a></h1>
-        <div id="ceanos-gear"></div>
+        <h1><a href="/" title="Go to the home page">The CeanOS Kernel Archives</a></h1>
+        <div id="ceanos-gear" aria-label="CeanOS Gear Icon"></div>
         <nav>
             <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="#latest">Latest Release</a></li>
-                <li><a href="#releases">Past Releases</a></li>
+                <li><a href="/" title="Home page">Home</a></li>
+                <li><a href="#latest" title="View latest release">Latest Release</a></li>
+                <li><a href="past.html" title="View past releases">Past Releases</a></li>
             </ul>
         </nav>
     </header>
@@ -23,29 +30,31 @@
         <section id="latest">
             <h2>Latest CeanOS Kernel Release</h2>
             <div id="latest_button">
-                <a href="downloads/ceanos-alpha_v0.0.3.tar.gz" class="latest_button">Download Latest</a>
+                <a href="downloads/ceanos-alpha_v0.0.3.tar.gz" class="latest_button" title="Download the latest release">Latest Release</a>
             </div>
-            <p>alpha v0.0.3 - 2024-10-25</p>
+            <p><strong>Version:</strong> alpha v0.0.3 - 2024-10-25</p>
             <p><strong>Changes:</strong> First version of CeanOS, initial kernel features.</p>
         </section>
 
         <section id="releases">
             <h2>Past Kernel Releases</h2>
             <table class="docutils">
-                <thead>
+                <tbody>
                     <tr>
-                        <th>Version</th>
-                        <th>Date</th>
-                        <th>Changes</th>
-                        <th>Download</th>
+                        <td>nothing</td>
+                        <td>2024-10-25</td>
+                        <td>nothing</td>
+                        <td><a href="downloads/" class="button" title="Download this release">[tarball]</a></td>
+                        <td><a href="downloads/" class="button" title="Download this release">[zipball]</a></td>
                     </tr>
-                </thead>
+                </tbody>
                 <tbody>
                     <tr>
                         <td>alpha 0.0.3</td>
                         <td>2024-10-25</td>
                         <td>Initial release</td>
-                        <td><a href="downloads/ceanos-alpha_v0.0.3.tar.gz" class="button">Download</a></td>
+                        <td><a href="downloads/ceanos-alpha_v0.0.3.tar.gz" class="button" title="Download this release">[tarball]</a></td>
+                        <td><a href="downloads/ceanos-alpha_v0.0.3.zip" class="button" title="Download this release">[zipball]</a></td>
                     </tr>
                 </tbody>
             </table>
@@ -55,5 +64,6 @@
     <footer id="contentinfo">
         <p>&copy; 2024 CeanOS. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
